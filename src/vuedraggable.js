@@ -75,6 +75,9 @@ const emits = [
 ];
 
 const draggableComponent = defineComponent({
+  compatConfig: {
+    RENDER_FUNCTION: false,
+  },
   name: "draggable",
 
   inheritAttrs: false,

@@ -4751,6 +4751,9 @@ var emits = ["update:modelValue", "change"].concat(_toConsumableArray([].concat(
   return evt.toLowerCase();
 })));
 var draggableComponent = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["defineComponent"])({
+  compatConfig: {
+    RENDER_FUNCTION: false
+  },
   name: "draggable",
   inheritAttrs: false,
   props: props,
